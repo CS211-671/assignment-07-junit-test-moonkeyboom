@@ -22,7 +22,7 @@ public class User {
 
     public void setPassword(String password) {
         // more info: https://github.com/patrickfav/bcrypt
-        this.password = BCrypt.withDefaults().hashToString(12, password.toCharArray());
+        this.password = this.password = BCrypt.withDefaults().hashToString(12, password.toCharArray());
     }
 
     public boolean validatePassword(String password) {
