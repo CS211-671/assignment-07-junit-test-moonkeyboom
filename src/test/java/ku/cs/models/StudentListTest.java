@@ -50,7 +50,8 @@ class StudentListTest {
     }
 
     @Test
-    @DisplayName("ทดสอบ viewGradeOfId()")    void testViewGradeOfId() {
+    @DisplayName("ทดสอบ viewGradeOfId()")
+    void testViewGradeOfId() {
         assertEquals("A", list.viewGradeOfId("6611111111"));
 
     }

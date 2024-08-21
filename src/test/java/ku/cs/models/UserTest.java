@@ -52,9 +52,5 @@ class UserTest {
         assertTrue(user.validatePassword("moo"));
     }
 
-    @Test
-    void testSetPassword() {
-    }
-
 
 }
